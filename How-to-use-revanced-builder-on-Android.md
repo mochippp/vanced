@@ -4,6 +4,7 @@ After that, you have to run these commands:
 
 ```bash
 apt update
+apt install wget
 apt install nodejs-lts
 wget https://github.com/reisxd/revanced-builder/archive/refs/heads/cli.zip
 unzip cli.zip
