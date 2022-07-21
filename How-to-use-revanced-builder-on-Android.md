@@ -3,6 +3,7 @@ Firstly, you have to install Termux. To do this, you have to install [F-Droid](h
 After that, you have to run these commands:
 
 ```bash
+termux-setup-storage
 apt update
 apt install wget
 apt install nodejs-lts
