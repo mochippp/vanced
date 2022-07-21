@@ -6,9 +6,7 @@ After that, you have to run these commands:
 termux-setup-storage
 apt update
 apt upgrade
-apt install wget
-apt install nodejs-lts
-apt install openjdk-17
+apt install wget nodejs-lts openjdk-17
 wget https://github.com/reisxd/revanced-builder/archive/refs/heads/cli.zip
 unzip cli.zip
 cd revanced-builder-cli
