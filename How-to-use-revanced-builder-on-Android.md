@@ -4,9 +4,8 @@ After that, you have to run these commands:
 
 ```bash
 termux-setup-storage
-apt update
-apt upgrade
-apt install wget nodejs-lts openjdk-17 -y
+pkg update
+pkg install wget nodejs-lts openjdk-17 -y
 wget https://github.com/reisxd/revanced-builder/archive/refs/heads/cli.zip
 unzip cli.zip
 cd revanced-builder-cli
@@ -14,6 +13,6 @@ npm i
 node .
 ```
 
-After running `node .`, revanced-builder will install OpenJDK 17 if its missing and also aapt2. 
+After running `node .`, revanced-builder will install aapt2. 
 
 You now can build ReVanced with revanced-builder!
