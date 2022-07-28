@@ -13,6 +13,16 @@ npm i
 node .
 ```
 
+If you wan't to reinstall it, heres the commands you need to run: 
+```bash
+rm -r revanced-builder-cli/
+rm -r cli.zip
+wget https://github.com/reisxd/revanced-builder/archive/refs/heads/cli.zip
+unzip cli.zip
+cd revanced-builder-cli
+npm i
+node .
+```
 After running `node .`, revanced-builder will install aapt2. 
 
 You now can build ReVanced with revanced-builder!
