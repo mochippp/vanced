@@ -16,7 +16,7 @@ node .
 If you wan't to reinstall it, heres the commands you need to run: 
 ```bash
 rm -r revanced-builder-cli/
-rm -r cli.zip
+rm cli.zip
 wget https://github.com/reisxd/revanced-builder/archive/refs/heads/cli.zip
 unzip cli.zip
 cd revanced-builder-cli
